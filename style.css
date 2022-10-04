@@ -16,6 +16,8 @@ img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border-style: solid;
+    border-color: black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -47,18 +49,21 @@ a:hover{
     transform: translate(8px, 8px);
 }
 .insta{
-    background-image: linear-gradient(to right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    background-color: #DD2A7B;
 }
 .tiktok{
-    background-image: linear-gradient(to right, #00f2ea, #ff0050, rgba(0, 0, 0, 0.911));
+    background-color: #00f2ea;
 }
 .twitter{
-    background-image: linear-gradient(to right, #1DA1F2, white);
+    background-color: #1DA1F2;
 }
 .git{
-    background-image: linear-gradient(to right, #242424, #171515, #1d1a1a);
+    background-color: #242424;
     color: white;
 }
-.telegram{
-    background-image: linear-gradient(to right, #2AABEE, white);
+.email{
+    background-color: #f14336;
+}
+.p{
+    
 }
