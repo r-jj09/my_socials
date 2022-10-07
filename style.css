@@ -5,7 +5,7 @@
     font-family: 'Merriweather';
 }
 body{
-    background-image: url("clouds.png");
+    background-image: url("SkyBlueCloud.png");
     padding: 20px;
     width: 100vw;
     display: flex;
@@ -15,9 +15,8 @@ body{
 img{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: black;
+    border: 8px double #03000b;
+    border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -29,6 +28,8 @@ p{
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 50px;
 }
 a{
     color: black;
@@ -49,13 +50,14 @@ a:hover{
     transform: translate(8px, 8px);
 }
 .insta{
-    background-color: #DD2A7B;
+    background-color: #E1306C;
 }
 .tiktok{
     background-color: #00f2ea;
 }
 .twitter{
     background-color: #1DA1F2;
+    color: white;
 }
 .git{
     background-color: #242424;
@@ -63,4 +65,8 @@ a:hover{
 }
 .email{
     background-color: #f14336;
+}
+.goodreads{
+    background-color: #E9E5CD;
+    color: #553B08    ;
 }
