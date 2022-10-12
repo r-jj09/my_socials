@@ -15,6 +15,7 @@ body{
 .about{
     justify-content:center;
     align-items: center;
+    align-content: center;
 }
 img{
     width: 100px;
@@ -22,7 +23,7 @@ img{
     border: 8px double #03000b;
     border-radius: 20px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 span{
     font-size: 30px;
