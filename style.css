@@ -13,7 +13,8 @@ body{
     align-items: center;
 }
 .about{
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
 }
 img{
     width: 100px;
@@ -22,11 +23,9 @@ img{
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-    align-self: auto;
 }
 span{
     font-size: 30px;
-    text-align: center;
     width: auto;
 }
 p{
