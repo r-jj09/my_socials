@@ -6,8 +6,6 @@
 }
 body{
     background-image: url("SkyBlueCloud.png");
-    background-size: auto;
-    background-size: cover;
     padding: 20px;
     width: 100vw;
     display: flex;
