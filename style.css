@@ -1,23 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather';
 }
-body{
+
+body {
     background-image: url("SkyBlueCloud.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     padding: 20px;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.about{
-    justify-content:center;
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #336699d;
+    border-radius: 10px;
+}
+
+.about {
+    justify-content: center;
     align-items: center;
     align-content: center;
 }
-img{
+
+img {
     width: 100px;
     height: 100px;
     border: 8px double #03000b;
@@ -25,18 +44,21 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-span{
+
+span {
     font-size: 30px;
     width: auto;
 }
-p{
+
+p {
     font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
     border: 3px solid black;
     border-radius: 50px;
 }
-a{
+
+a {
     color: black;
     padding: 16px;
     margin-bottom: 20px;
@@ -49,28 +71,39 @@ a{
     box-shadow: 8px 8px 0px black;
     transition: 0.2s all;
 }
-a:hover{
+
+a:hover {
     box-shadow: none;
     transform: translate(8px, 8px);
 }
-.insta{
+
+.insta {
     background-color: #E1306C;
 }
-.tiktok{
+
+.instac {
+    background-color: #8a3ab9;
+}
+
+.tiktok {
     background-color: #00f2ea;
 }
-.twitter{
+
+.twitter {
     background-color: #1DA1F2;
     color: white;
 }
-.git{
+
+.git {
     background-color: #242424;
     color: white;
 }
-.email{
+
+.email {
     background-color: #f14336;
 }
-.goodreads{
+
+.goodreads {
     background-color: #E9E5CD;
-    color: #553B08    ;
+    color: #553B08;
 }
