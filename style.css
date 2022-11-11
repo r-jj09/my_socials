@@ -16,6 +16,7 @@ body {
     align-items: center;
 }
 
+/*
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -29,7 +30,7 @@ body {
     background: #336699d;
     border-radius: 10px;
 }
-
+*/
 .about {
     justify-content: center;
     align-items: center;
