@@ -8,6 +8,8 @@
 body {
     background-image: url("SkyBlueCloud.png");
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     padding: 20px;
     display: flex;
     flex-direction: column;
