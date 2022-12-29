@@ -7,9 +7,7 @@
 
 body {
     background-image: url("SkyBlueCloud.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-size: cover;
     padding: 20px;
     display: flex;
     flex-direction: column;
