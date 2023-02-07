@@ -7,9 +7,7 @@
 
 body {
     background-image: url("SkyBlueCloud.png");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-size: auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -22,7 +20,7 @@ body {
     align-content: center;
 }
 
-img {
+.profilepic {
     width: 100px;
     height: 100px;
     border: 8px double #03000b;
@@ -42,6 +40,13 @@ p {
     text-align: center;
     border: 3px solid black;
     border-radius: 50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
 a {
@@ -65,10 +70,17 @@ a:hover {
 
 .insta {
     background-color: #E1306C;
+    color: black;
+}
+
+.booksta {
+    background-color: #8a3ab9;
+    color: black;
 }
 
 .tiktok {
     background-color: #00f2ea;
+    color: black;
 }
 
 .twitter {
@@ -83,6 +95,7 @@ a:hover {
 
 .email {
     background-color: #f14336;
+    color: black;
 }
 
 .goodreads {
@@ -92,5 +105,10 @@ a:hover {
 
 .linkedin {
     background-color: #0077b5;
+    color: white;
+}
+
+.moly {
+    background-color: #93bce1;
     color: black;
 }
