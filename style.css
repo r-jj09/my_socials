@@ -53,9 +53,10 @@ a:active {
     text-decoration: none;
 }
 
-a {
+.link {
+    background-color: rgba(94, 163, 212, 0.750);
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: white;
     padding: 16px;
     margin-bottom: 20px;
     width: 100%;
@@ -69,52 +70,11 @@ a {
     transition: 0.2s all;
 }
 
-a:hover {
+.link i {
+    color: white;
+}
+
+.link:hover {
     box-shadow: none;
     transform: translate(8px, 8px);
-}
-
-.insta {
-    background-color: #E1306C;
-    color: black;
-}
-
-.booksta {
-    background-color: #8a3ab9;
-    color: black;
-}
-
-.tiktok {
-    background-color: #00f2ea;
-    color: black;
-}
-
-.twitter {
-    background-color: #1DA1F2;
-    color: white;
-}
-
-.git {
-    background-color: #242424;
-    color: white;
-}
-
-.email {
-    background-color: #f14336;
-    color: black;
-}
-
-.goodreads {
-    background-color: #E9E5CD;
-    color: #553B08;
-}
-
-.linkedin {
-    background-color: #0077b5;
-    color: white;
-}
-
-.moly {
-    background-color: #93bce1;
-    color: black;
 }
