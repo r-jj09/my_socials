@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather';
-    color: black;
+    font-family: "Andada Pro", serif;
 }
 
 body {
-    background-image: url("SkyBlueCloud.png");
+    background-image: url(background.png);
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -27,22 +29,24 @@ body {
 .profilepic {
     width: 120px;
     height: 120px;
-    border: 8px double #03000b;
+    border: 8px double #ffffff;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 span {
+    color: white;
     font-size: 30px;
     width: auto;
 }
 
 p {
     font-size: 16px;
+    color: white !important;
     margin-bottom: 20px;
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid #ff0836;
     border-radius: 50px;
 }
 
@@ -54,8 +58,8 @@ a:active {
 }
 
 .link {
-    background-color: rgba(94, 163, 212, 0.750);
-    font-family: 'Roboto', sans-serif;
+    background-color: #270b3d;
+    /* font-family: 'Roboto', sans-serif; */
     color: white;
     padding: 16px;
     margin-bottom: 20px;
@@ -64,17 +68,19 @@ a:active {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 8px 8px 0px black;
-    transition: 0.2s all;
+    border: 2px solid #9e91b9;
 }
 
 .link i {
-    color: white;
+    color: #ff0836;
 }
 
 .link:hover {
-    box-shadow: none;
-    transform: translate(8px, 8px);
+    background-color: black;
+    border-color: white;
+    color: #3ff9f4;
+
+    .fa-brands {
+        color: #3ff9f4;
+    }
 }
