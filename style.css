@@ -9,6 +9,11 @@
     font-family: "Andada Pro", serif;
 }
 
+::selection {
+    background-color: #270b3d;
+    color: white;
+}
+
 body {
     background-image: url(background.png);
     background-attachment: fixed;
