@@ -32,8 +32,8 @@ body {
 }
 
 .profilepic {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border: 8px double #ffffff;
     border-radius: 20px;
     margin-top: 20px;
@@ -74,18 +74,20 @@ a:active {
     text-decoration: none;
     font-size: 18px;
     border: 2px solid #9e91b9;
+    transition: all 0.3s ease-in-out;
 }
 
 .link i {
     color: #ff0836;
+    transition: all 0.3s ease-in-out;
 }
 
 .link:hover {
     background-color: black;
-    border-color: white;
-    color: #3ff9f4;
+    border-color: #ff0836;
+    color: white;
 
     .fa-brands {
-        color: #3ff9f4;
+        color: white;
     }
 }
