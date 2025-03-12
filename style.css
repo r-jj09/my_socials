@@ -15,13 +15,27 @@
 }
 
 body {
-    background-image: url(background.png);
-    background-attachment: fixed;
-    background-position: center;
+    background: none;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#particles-js {
+    background: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
     padding: 20px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    justify-items: center;
     align-items: center;
 }
 
@@ -63,6 +77,9 @@ a:active {
 }
 
 .link {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(30px);
     background-color: #270b3d;
     /* font-family: 'Roboto', sans-serif; */
     color: white;
@@ -89,5 +106,23 @@ a:active {
 
     .fa-brands {
         color: white;
+    }
+}
+
+.animate-on-scroll {
+    animation: slideUp 1s ease-out forwards;
+    visibility: visible;
+}
+
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
