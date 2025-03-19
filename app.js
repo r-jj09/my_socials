@@ -19,8 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
     function handleScroll() {
         employeeCard.forEach((el, index) => {
             if (isElementInView(el)) {
-                // Apply a delay based on the index of the element (e.g., 0.3s delay for the first, 0.6s for the second)
-                el.style.animationDelay = `${0.3 * index}s`;  // You can adjust the delay multiplier
+                // Check if the screen width is greater than 768px (desktop)
+                if (window.innerWidth > 768) {
+                    el.style.animationDelay = `${0.3 * index}s`;  // Apply delay only on desktop
+                } else {
+                    el.style.animationDelay = "0s"; // No delay on mobile
+                }
                 el.classList.add("animate-on-scroll");
             }
         });
@@ -29,3 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
     handleScroll();
     window.addEventListener("scroll", handleScroll);
 });
+
